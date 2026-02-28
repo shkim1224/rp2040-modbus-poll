@@ -10,7 +10,9 @@ SQLite DB(shkimdb.db)의 sensor 테이블에 저장합니다.
   uv run sqlite-modbus.py              # COM 포트 자동 검색
   uv run sqlite-modbus.py --port COM22 # COM 포트 직접 지정
 """
-
+"""
+새로운 commit 
+"""
 import argparse
 import ctypes
 import sqlite3
